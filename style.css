@@ -57,12 +57,18 @@ button {
     position: relative;
 }
 
+.main-image {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 #heart {
-    font-size: 3rem;
+    font-size: 5rem;
     margin-top: 2rem;
     animation: pulse 1s infinite;
-    color: #ff6b6b;
-    font-weight: bold;
 }
 
 .hidden {
