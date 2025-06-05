@@ -61,17 +61,23 @@ button {
     max-width: 300px;
     width: 100%;
     border-radius: 15px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#heart {
+.heart-emoji {
     font-size: 5rem;
-    margin-top: 2rem;
     animation: pulse 1s infinite;
 }
 
-.hidden {
+#heart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#heart.hidden {
     display: none;
 }
 
@@ -90,4 +96,5 @@ button {
         padding: 0.8rem 1.6rem;
         font-size: 1.2rem;
     }
+} 
 } 
