@@ -58,9 +58,11 @@ button {
 }
 
 #heart {
-    font-size: 5rem;
+    font-size: 3rem;
     margin-top: 2rem;
     animation: pulse 1s infinite;
+    color: #ff6b6b;
+    font-weight: bold;
 }
 
 .hidden {
